@@ -6,7 +6,7 @@ def login(arg):
     user_name = arg.POST.get('username', '')
     password = arg.POST.get('password', '')
 
-    if user_name == 'wang' and password == '123':
+    if user_name == 'yun' and password == '123':
         return {'rel' : 0}
     else:
         return {'rel' : -1}
